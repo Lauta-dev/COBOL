@@ -9,7 +9,7 @@
 
        DATA DIVISION.
         FILE SECTION.
-         WORKING-STORAGE SECTION.
+         WORKING-STORAGE SECTION.     
          77 WS-JUBI-LARSE         PIC 9(2)   VALUE 60.
          77 WS-ANIO-ACTUAL        PIC 9(4)   VALUE 2023.
          
