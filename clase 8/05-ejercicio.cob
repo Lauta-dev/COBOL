@@ -12,44 +12,32 @@
        DATA DIVISION.
         FILE SECTION.
          WORKING-STORAGE SECTION.
-         77 ANIO       PIC 9(4)    VALUE ZEROS.
+         77 ANIO       PIC 9(4)  VALUE ZEROS.
 
-         77 ANIO-4     PIC V99    VALUE ZEROS.
-         77 ANIO-100   PIC V99    VALUE ZEROS.
-         77 ANIO-400   PIC V99    VALUE ZEROS.
-
-         77 R PIC 9(3) VALUE ZEROS.
+         77 ANIO-4     PIC V9    VALUE ZEROS.
+         77 ANIO-100   PIC V9    VALUE ZEROS.
+         77 ANIO-400   PIC V9    VALUE ZEROS.
 
        PROCEDURE DIVISION.
-           DISPLAY "M"
+           DISPLAY "Año:"
            ACCEPT ANIO
 
            DIVIDE ANIO BY 4   GIVING ANIO-4
            DIVIDE ANIO BY 400 GIVING ANIO-400
            DIVIDE ANIO BY 100 GIVING ANIO-100
 
+           DISPLAY "------------------------"
+
            DISPLAY "ANIO-4   " ANIO-4
            DISPLAY "ANIO-400 " ANIO-400
            DISPLAY "ANIO-100 " ANIO-100
 
-           IF ANIO-4 = .00
-              DISPLAY "bisiestos (4)"
-              
-           
+           DISPLAY "------------------------"
+
+           IF ANIO-4 = .0 AND ANIO-400 = .0
+              DISPLAY "bisiesto"
            ELSE
-              IF ANIO-100 = .00
-                 DISPLAY "no bisiestos (100)"
-
-              ELSE
-
-                 IF ANIO-400 = .00
-                    DISPLAY "bisiestos (400)"
-
-                 ELSE
-                    DISPLAY "no bisiestos"
-
-                 END-IF
-              END-IF
+              DISPLAY "no bisiesto"
            END-IF
 
            GOBACK.
