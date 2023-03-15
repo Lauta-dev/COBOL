@@ -19,12 +19,12 @@
        PROCEDURE DIVISION.
             DISPLAY "Cual es su edad?".
             ACCEPT WS-EDAD.
+            SUBTRACT WS-JUBI-LARSE FROM WS-EDAD GIVING WS-FALTA
 
             IF WS-EDAD >= WS-JUBI-LARSE
                DISPLAY "Jubilarse"
             ELSE
               IF WS-EDAD < WS-JUBI-LARSE
-                SUBTRACT WS-JUBI-LARSE FROM WS-EDAD GIVING WS-FALTA
                 DISPLAY WS-FALTA
               END-IF
             END-IF
