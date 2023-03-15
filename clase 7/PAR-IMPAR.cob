@@ -14,7 +14,7 @@
            ACCEPT NUMERO.
 
            DIVIDE NUMERO BY 2 GIVING RESULTADO.
-           IF RESULTADO = ".5"
+           IF RESULTADO = .5
              DISPLAY "Impar"
            ElSE
              DISPLAY "Par"
