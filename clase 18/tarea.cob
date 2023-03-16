@@ -21,7 +21,7 @@
           77 WS-FINANZA   PIC X(25)   OCCURS 5 TIMES.
           77 WS-CLI       PIC X(25)   OCCURS 5 TIMES.
           77 WS-INVER     PIC X(25)   OCCURS 5 TIMES.
-          77 WS-PRESTA    PIC X(25)   OCCURS 5 TIMES.
+          77 WS-PROMO     PIC X(25)   OCCURS 5 TIMES.
           77 WS-INFO      PIC X(25)   OCCURS 5 TIMES.
           77 WS-INFO2     PIC X(25)   OCCURS 5 TIMES.
 
@@ -66,11 +66,11 @@
 
       ******************            Promoción          ******************
 
-           MOVE "otorgamiento"    TO WS-PRESTA(1).
-           MOVE "otorgamiento"    TO WS-PRESTA(2).
-           MOVE "otorgamiento"    TO WS-PRESTA(3).
-           MOVE "otorgamiento"    TO WS-PRESTA(4).
-           MOVE "Promoción"       TO WS-PRESTA(5).
+           MOVE "otorgamiento"    TO WS-PROMO(1).
+           MOVE "otorgamiento"    TO WS-PROMO(2).
+           MOVE "otorgamiento"    TO WS-PROMO(3).
+           MOVE "otorgamiento"    TO WS-PROMO(4).
+           MOVE "Promoción"       TO WS-PROMO(5).
 
       ******************            INFO               ******************
 
@@ -89,25 +89,22 @@
       ******************            BUCLE              ******************
 
            PERFORM VARYING INDICE FROM 1 BY 1 UNTIL INDICE > 5
-             IF INDICE >= 1
-                DISPLAY WS-DIA(INDICE)
-                DISPLAY "   " WS-EMPLE(1)
-                DISPLAY "        " WS-FINANZA(INDICE)
+             DISPLAY WS-DIA(INDICE)
+             DISPLAY "   " WS-EMPLE(1)
+             DISPLAY "        " WS-FINANZA(INDICE)
 
-                DISPLAY "   " WS-EMPLE(2)
-                DISPLAY "        " WS-CLI(INDICE)
+             DISPLAY "   " WS-EMPLE(2)
+             DISPLAY "        " WS-CLI(INDICE)
 
-                DISPLAY "   " WS-EMPLE(3)
-                DISPLAY "        " WS-INVER(INDICE)
+             DISPLAY "   " WS-EMPLE(3)
+             DISPLAY "        " WS-INVER(INDICE)
 
-                DISPLAY "   " WS-EMPLE(4)
-                DISPLAY "        " WS-PRESTA(INDICE)
+             DISPLAY "   " WS-EMPLE(4)
+             DISPLAY "        " WS-PROMO(INDICE)
 
-                DISPLAY "   " WS-EMPLE(5)
-                DISPLAY "        " WS-INFO(INDICE)
-                DISPLAY "        " WS-INFO2(INDICE)
-             END-IF
-
+             DISPLAY "   " WS-EMPLE(5)
+             DISPLAY "        " WS-INFO(INDICE)
+             DISPLAY "        " WS-INFO2(INDICE)
            END-PERFORM.
 
            DISPLAY " "
