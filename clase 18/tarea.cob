@@ -89,100 +89,25 @@
       ******************            BUCLE              ******************
 
            PERFORM VARYING INDICE FROM 1 BY 1 UNTIL INDICE > 5
-             IF INDICE = 1
+             IF INDICE >= 1
                 DISPLAY WS-DIA(INDICE)
-                DISPLAY "   " WS-EMPLE(INDICE)
+                DISPLAY "   " WS-EMPLE(1)
                 DISPLAY "        " WS-FINANZA(INDICE)
 
-                DISPLAY "   " WS-EMPLE(INDICE + 1)
+                DISPLAY "   " WS-EMPLE(2)
                 DISPLAY "        " WS-CLI(INDICE)
 
-                DISPLAY "   " WS-EMPLE(INDICE + 2)
+                DISPLAY "   " WS-EMPLE(3)
                 DISPLAY "        " WS-INVER(INDICE)
 
-                DISPLAY "   " WS-EMPLE(INDICE + 3)
+                DISPLAY "   " WS-EMPLE(4)
                 DISPLAY "        " WS-PRESTA(INDICE)
 
-                DISPLAY "   " WS-EMPLE(INDICE + 4)
+                DISPLAY "   " WS-EMPLE(5)
                 DISPLAY "        " WS-INFO(INDICE)
                 DISPLAY "        " WS-INFO2(INDICE)
              END-IF
 
-             IF INDICE = 2
-                DISPLAY WS-DIA(INDICE)
-                DISPLAY "   " WS-EMPLE(INDICE - 1)
-                DISPLAY "        " WS-FINANZA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE)
-                DISPLAY "        " WS-CLI(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE + 1)
-                DISPLAY "        " WS-INVER(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE + 2)
-                DISPLAY "        " WS-PRESTA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE + 3)
-                DISPLAY "        " WS-INFO(INDICE)
-                DISPLAY "        " WS-INFO2(INDICE)
-             END-IF
-
-             IF INDICE = 3
-                DISPLAY WS-DIA(INDICE)
-                DISPLAY "   " WS-EMPLE(INDICE - 2)
-                DISPLAY "        " WS-FINANZA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE - 1)
-                DISPLAY "        " WS-CLI(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE)
-                DISPLAY "        " WS-INVER(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE + 1)
-                DISPLAY "        " WS-PRESTA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE + 2)
-                DISPLAY "        " WS-INFO(INDICE)
-                DISPLAY "        " WS-INFO2(INDICE)
-             END-IF
-
-             IF INDICE = 4
-                DISPLAY WS-DIA(INDICE)
-                DISPLAY "   " WS-EMPLE(INDICE - 3)
-                DISPLAY "        " WS-FINANZA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE - 2)
-                DISPLAY "        " WS-CLI(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE - 1)
-                DISPLAY "        " WS-INVER(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE)
-                DISPLAY "        " WS-PRESTA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE + 1)
-                DISPLAY "        " WS-INFO(INDICE)
-                DISPLAY "        " WS-INFO2(INDICE)
-             END-IF
-
-             IF INDICE = 5
-                DISPLAY WS-DIA(INDICE)
-                DISPLAY "   " WS-EMPLE(INDICE - 4)
-                DISPLAY "        " WS-FINANZA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE - 3)
-                DISPLAY "        " WS-CLI(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE - 2)
-                DISPLAY "        " WS-INVER(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE - 1)
-                DISPLAY "        " WS-PRESTA(INDICE)
-
-                DISPLAY "   " WS-EMPLE(INDICE)
-                DISPLAY "        " WS-INFO(INDICE)
-                DISPLAY "        " WS-INFO2(INDICE)
-             END-IF
            END-PERFORM.
 
            DISPLAY " "
