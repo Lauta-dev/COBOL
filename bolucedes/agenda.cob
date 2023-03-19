@@ -1,0 +1,21 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. A.
+
+       ENVIRONMENT DIVISION.
+        INPUT-OUTPUT SECTION.
+           FILE-CONTROL.
+              SELECT AGENDA ASSIGN TO
+        "/home/arch/Documentos/Programación/COBOL/bolucedes/AGENDA.dat".
+
+       DATA DIVISION.
+        FILE SECTION.
+        FD AGENDA.
+         WORKING-STORAGE SECTION.
+          01 AGENDA-REG.
+           02 ORDEN PIC 9(2) VALUE ZEROS.
+           02 NOMBRE PIC X(15) VALUE SPACES.
+           02 DIRECCION PIC X(30) VALUE SPACES.
+           02 CODIGO-POSTAL PIC 9(4) VALUES ZEROS.
+           02 TELEFONO PIC 9(9) VALUES ZEROS.
+       PROCEDURE DIVISION.
+           GOBACK.
