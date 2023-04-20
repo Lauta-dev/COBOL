@@ -1,0 +1,11 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. CAJERO.
+       DATA DIVISION.
+        FILE SECTION.
+         WORKING-STORAGE SECTION.
+
+       PROCEDURE DIVISION.
+       INICIO.
+             
+           GOBACK.
+  

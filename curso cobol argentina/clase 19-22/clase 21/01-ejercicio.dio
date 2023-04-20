@@ -1,0 +1,364 @@
+<mxfile host="65bd71144e">
+    <diagram id="PVPJdrrKTaS7TYn7uk7D" name="Page-1">
+        <mxGraphModel dx="7752" dy="1488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="254" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="252" target="253" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;principio&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-727" y="-594" width="164" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="253" target="255" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="variable &lt;br&gt;WS-I&lt;br&gt;WS-SEXO&lt;br&gt;WS-EDAD-H&lt;br&gt;WS-EDAD-M&lt;br&gt;WS-EDAD-N&lt;br&gt;&lt;br&gt;WS-EDAD-HH&lt;br&gt;WS-EDAD-MM&lt;br&gt;WS-EDAD-NN" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-838" y="-79" width="403" height="341" as="geometry"/>
+                </mxCell>
+                <mxCell id="365" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="255" target="262" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="WS-SEXO = vacio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-803" y="348" width="332" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="372" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="256" target="371" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="WS-EDAD-N = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-861.5" y="1311" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="366" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="260" target="256" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="WS-EDAD-M = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-802.5" y="1059" width="332" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="262" target="260" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-637" y="1010.0000000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="262" value="WS-EDAD-H = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-834" y="766" width="394" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="281" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="276" target="279" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-97" y="3135"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="343" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="276" target="342" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="I &amp;lt;= 200" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-801" y="3077" width="355" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="286" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="279" target="285" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="279" value="DISPLAY &quot;Es hombre o mujer?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-316" y="3365" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="289" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="284" target="288" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-728" y="4147"/>
+                            <mxPoint x="-1553" y="4153"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="296" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="284" target="295" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="844" y="4153"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="284" value="WS-SEXO = &quot;hombre&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-278.5" y="3940" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="285" target="284" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="ACCEPT WS-SEXO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-316" y="3603" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="293" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="288" target="290" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-3327" y="4972"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="319" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="288" target="309" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-888" y="4940"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="288" value="WS-SEXO = &quot;mujer&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-1741" y="4727" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="290" target="322" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-2767" y="5444"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="290" value="WS-SEXO = &quot;no&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-3515" y="5231" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="298" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="295" target="297" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="295" value="DISPLAY &quot;Edad&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="4408" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="297" target="300" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="297" value="ACCEPT WS-EDAD" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="4706" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="300" target="302" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-163" y="5286"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="305" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="300" target="304" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1254" y="5286"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="300" value="WS-EDAD &amp;gt;= 21&lt;br&gt;AND&amp;nbsp;&lt;br&gt;WS-EDAD &amp;lt;= 34" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="656.5" y="5073" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="302" target="306" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="5709"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="302" value="WS-EDAD &amp;gt;= 35" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-350" y="5496" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" style="edgeStyle=none;html=1;fontSize=24;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="304" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="86.35917154947947" y="7300.145273844402" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1239" y="7291"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="304" value="WS-EDAD-H-M = WS-EDAD-H-M + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="1031.5" y="5852" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="306" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="WS-EDAD-HH = WS-EDAD-HH + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="6079" width="450" height="156" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="309" target="311" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="DISPLAY &quot;Edad&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-1113" y="5139" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="310" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="311" target="314" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="311" value="ACCEPT WS-EDAD" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-1113" y="5437" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="312" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="314" target="316" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-1895" y="6017"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="313" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="314" target="317" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-478" y="6017"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="314" value="WS-EDAD &amp;gt;= 18&lt;br&gt;AND&amp;nbsp;&lt;br&gt;WS-EDAD &amp;lt;= 64" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-1074.5" y="5804" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="315" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="316" target="318" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-1432" y="6440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="316" value="WS-EDAD &amp;gt;= 65" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-2081" y="6227" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="337" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="317" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="317" value="WS-EDAD-M = WS-EDAD-M + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-700.5" y="6583" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="338" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="318" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="318" value="WS-EDAD-MM = WS-EDAD-MM + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-1657" y="6810" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="321" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="322" target="324" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" value="DISPLAY &quot;Edad&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-2992" y="5716" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="324" target="327" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="ACCEPT WS-EDAD" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-2992" y="6014" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="327" target="329" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-3774" y="6594"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="326" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="327" target="330" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-2357" y="6594"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="327" value="WS-EDAD &amp;gt;= 10&lt;br&gt;AND&amp;nbsp;&lt;br&gt;WS-EDAD &amp;lt;= 24" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-2953.5" y="6381" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="329" target="331" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-3311" y="7017"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="329" value="WS-EDAD &amp;gt;= 25" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-3958" y="6804" width="375" height="425" as="geometry"/>
+                </mxCell>
+                <mxCell id="339" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="330" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" value="WS-EDAD-N = WS-EDAD-N + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-2579.5" y="7160" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="331" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" value="WS-EDAD-NN = WS-EDAD-NN + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-3536" y="7387" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="334" target="276" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-54" y="8405"/>
+                            <mxPoint x="-2404" y="8389"/>
+                            <mxPoint x="-4487" y="7355"/>
+                            <mxPoint x="-3483" y="4689"/>
+                            <mxPoint x="-791" y="3855"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="334" value="WS-I = WS-I + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-298" y="7750" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="342" target="345" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" value="DISPLAY &quot;Edaddes de las mujeres&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="3034" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="349" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="345" target="348" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="345" value="DISPLAY &quot;mayores de 18 años &quot; WS-EDAD-M" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="3332" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="348" value="DISPLAY &quot;mayores de 65 años &quot; WS-EDAD-MM" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="3640" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="350" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="351" target="353" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="351" value="DISPLAY &quot;Edaddes del los hombres&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="3965" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="352" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="353" target="354" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="353" value="DISPLAY &quot;mayores de 21 años &quot; WS-EDAD-H" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="4263" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="360" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="354" target="356" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="354" value="DISPLAY &quot;mayores de 35 años &quot; WS-EDAD-HH" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="4571" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="355" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="356" target="358" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="356" value="DISPLAY &quot;Edaddes del los que no dieros su sexo&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5849" y="4950" width="738" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="357" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="358" target="359" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="358" value="DISPLAY &quot;mayores de 10 años &quot; WS-EDAD-N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="5265" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="363" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="359" target="361" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="359" value="DISPLAY &quot;mayores de 25 años &quot; WS-EDAD-NN" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5706" y="5573" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="361" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-5540" y="5973" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="374" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="367" target="276" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="367" value="WS-EDAD-NN = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-853" y="2171" width="450" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="368" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="369" target="367" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="369" value="WS-EDAD-MM = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-794" y="1919" width="332" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="370" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="371" target="369" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-628.5" y="1870.0000000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="371" value="WS-EDAD-HH = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="-825.5" y="1626" width="394" height="117" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

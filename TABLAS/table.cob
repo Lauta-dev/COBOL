@@ -15,10 +15,11 @@
 
           77 I PIC 9(1).
        PROCEDURE DIVISION.
+             DISPLAY EL(1)
              SET L TO 1.
              SEARCH EL
                AT END DISPLAY "NO ENCONTRADO"
-               WHEN EL(L) = "G"
+               WHEN EL(L) = "L"
                  DISPLAY "SI ENCONTRADO"
              END-SEARCH.
 
